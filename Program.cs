@@ -1,5 +1,5 @@
-using enovation.Data;
-using Microsoft.EntityFrameworkCore;
+global using enovation.Data;
+global using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

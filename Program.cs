@@ -1,5 +1,7 @@
 global using enovation.Data;
 global using Microsoft.EntityFrameworkCore;
+using BasicAuthentication;
+using Microsoft.AspNetCore.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,11 @@ builder.Services.AddDbContext<DataContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAuthentication("BasicAuthentication")
+                .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>
+                ("BasicAuthentication", null);
+builder.Services.AddAuthorization();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -27,6 +34,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

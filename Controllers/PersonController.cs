@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using enovation.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace enovation.Controllers
 {
@@ -16,6 +17,7 @@ namespace enovation.Controllers
             _context = context;
         }
         
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<List<Person>>> Get()
         {
@@ -25,12 +27,12 @@ namespace enovation.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult <Person>>  Get(int id)
         {
-            var hero = await _context.Persons.FindAsync(id);
+            var person = await _context.Persons.FindAsync(id);
 
-            if(hero == null)
+            if(person == null)
                 return BadRequest("Not found");
             
-            return Ok(hero);
+            return Ok(person);
         }
 
 

@@ -33,3 +33,6 @@
 /home/geordyd/Projects/enovation/obj/Debug/net6.0/ref/enovation.dll
 /home/geordyd/Projects/enovation/obj/Debug/net6.0/enovation.pdb
 /home/geordyd/Projects/enovation/obj/Debug/net6.0/enovation.genruntimeconfig.cache
+/home/geordyd/Projects/enovation/bin/Debug/net6.0/Prometheus.NetCore.dll
+/home/geordyd/Projects/enovation/bin/Debug/net6.0/Prometheus.NetStandard.dll
+/home/geordyd/Projects/enovation/bin/Debug/net6.0/Prometheus.AspNetCore.dll

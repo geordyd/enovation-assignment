@@ -2,6 +2,7 @@ global using enovation.Data;
 global using Microsoft.EntityFrameworkCore;
 using BasicAuthentication;
 using Microsoft.AspNetCore.Authentication;
+using Prometheus;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +32,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMetricServer();
 
 app.UseHttpsRedirection();
 

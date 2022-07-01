@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "prqLvFMXEqlSeaUUOZm/9h++GGtCdXdWMAWj0FuZLD/P4xziXUJpXQRfKhNtrG6MKrmQjIgUa5NrIFbXhYZ0Ng==",
+  "dgSpecHash": "Eayxry+OZ7OkLHfhYMROtLiQhBGv9ULcQCjN9BMUahTf68Jc8i4n8CXkrcqudjpo5Hm2/EJ3nrUXc/DjKX1a7Q==",
   "success": true,
   "projectFilePath": "/home/geordyd/Projects/enovation/enovation.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "/home/geordyd/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/home/geordyd/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "/home/geordyd/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/geordyd/.nuget/packages/microsoft.extensions.http/3.1.9/microsoft.extensions.http.3.1.9.nupkg.sha512",
     "/home/geordyd/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "/home/geordyd/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/home/geordyd/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
@@ -23,6 +24,8 @@
     "/home/geordyd/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/geordyd/.nuget/packages/npgsql/6.0.5/npgsql.6.0.5.nupkg.sha512",
     "/home/geordyd/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.5/npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512",
+    "/home/geordyd/.nuget/packages/prometheus-net/6.0.0/prometheus-net.6.0.0.nupkg.sha512",
+    "/home/geordyd/.nuget/packages/prometheus-net.aspnetcore/6.0.0/prometheus-net.aspnetcore.6.0.0.nupkg.sha512",
     "/home/geordyd/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/home/geordyd/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/home/geordyd/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
